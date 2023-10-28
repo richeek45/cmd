@@ -1,0 +1,25 @@
+{
+  "name": "cmd",
+  "version": "1.0.0",
+  "description": "A CLI to translate between languages in terminal",
+  "exports": "./bin/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tran": "./bin/index.mjs"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Richeek",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.0",
+    "boxen": "^7.1.1",
+    "chalk": "^4.1.2",
+    "lowdb": "^6.1.0",
+    "yargs": "^17.7.2"
+  },
+  "type": "module"
+}
